@@ -3,7 +3,7 @@ name: Fetch
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 15 * * *'
+    - cron: '00 16 * * *'
 
 jobs:
   fetch:
